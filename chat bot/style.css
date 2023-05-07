@@ -1,0 +1,90 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+
+  
+  
+    *{
+        box-sizing:border-box;
+        margin:0;
+        padding:0;
+    }
+    nav{
+        height:80px;
+        background-color:#282538;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0rem calc((100vw-1300px)/2);
+        opacity: 80%;
+    }
+    
+    body {
+        background-image: url('slika1.jpg');
+        background-position: center; /* da se slika pozicionira u sredinu elementa */
+        background-size: 1920px 1920px;
+      }
+      
+    .logo{
+        color: white;
+        font-size: 1.5rem;
+        font-weight: bold;
+        font-style: italic;
+        padding: 0 2rem;
+    }
+    nav a{
+        text-decoration: none;
+        color:white;
+        padding: 0 1.5rem;
+    
+    } 
+    .hero-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: 95vh;
+        padding: 3rem calc((100vw-1300px)/2);
+    }
+    .column-left{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        color: white;
+        padding: 0rem 2rem;
+    }
+    .column-left h1{
+        margin-bottom: 1rem;
+        font-size:3rem;
+    }
+    .column-left p{
+        margin-bottom: 2rem;
+        font-size:1.5rem;
+        line-height: 1.5;
+    }
+    button{
+        padding: 20px 30px;
+        margin:0;
+        border: none;
+        color: white;
+        background-color: #282538;
+        cursor: pointer;
+        border-radius: 50px;
+    }
+    button:hover{
+        color: #282538;
+        background-color: white;
+    }
+    .column-right{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0rem 2rem;
+    
+    }
+   
